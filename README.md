@@ -1,86 +1,74 @@
-🃏 Super Trunfo - Comparador de Cartas de Países
+Super Trunfo em C
 
-Este projeto em linguagem C simula o jogo Super Trunfo, permitindo o cadastro e comparação de cartas de cidades ou países com base em diversos atributos, como população, área, PIB, pontos turísticos, densidade demográfica e PIB per capita. Foi desenvolvido como parte do curso de Análise e Desenvolvimento de Sistemas da Universidade Estácio, com orientação do professor Sergio Cardoso.
+Projeto desenvolvido como desafio final da disciplina de Programação Estruturada em C no curso de Análise e Desenvolvimento de Sistemas da Universidade Estácio.
 
-📚 Funcionalidades
-Cadastro de duas cartas com atributos detalhados
+✅ Funcionalidades
+Cadastro de duas cartas com dados reais de cidades
 
-Cálculo de densidade demográfica e PIB per capita
+Cálculo automático de:
 
-Cálculo de Super Poder
+Densidade Populacional
 
-Comparação automática de atributos entre as cartas
+PIB per capita
 
-Menu interativo: o usuário escolhe qual atributo comparar
+Super Poder da carta
 
-Comparações com regras específicas (ex: menor densidade vence)
+Comparação por múltiplos atributos (2 por vez)
 
-Exibição clara e amigável do resultado
+Menu interativo com switch
 
-📌 Atributos da Carta
-Cada carta contém:
+Regras especiais (como menor densidade vence)
 
-Estado (string)
+Mensagens claras e tratamento de empate
 
-Código (string)
-
-Cidade/País (string)
-
-População (unsigned long int)
-
-Área (float)
-
-PIB (float)
-
-Pontos turísticos (int)
-
-Densidade demográfica (calculada)
-
-PIB per capita (calculado)
-
-🧠 Regras de Comparação
-População, Área, PIB, Pontos turísticos, PIB per capita e Super Poder: vence o maior valor.
-
-Densidade demográfica: vence o menor valor.
-
-Empates são informados claramente.
-
-⚙️ Como compilar
-Você pode compilar o código usando o GCC:
+📦 Como Compilar
+Você precisa ter o compilador GCC instalado.
 
 bash
 Copiar
 Editar
 gcc super_trunfo.c -o super_trunfo
-▶️ Como executar
-Após a compilação, execute o programa:
+🚀 Como Executar
+Após compilar, rode o programa com:
 
 bash
 Copiar
 Editar
 ./super_trunfo
-📋 Exemplo de uso
-Ao iniciar o programa, ele pedirá os dados das duas cartas. Em seguida, apresentará um menu como este:
+🕹️ Exemplo de Uso
+Menu Interativo
+Você verá um menu como este:
 
-sql
+markdown
 Copiar
 Editar
-Escolha um atributo para comparar:
-1 - População
-2 - Área
-3 - PIB
-4 - Pontos Turísticos
-5 - Densidade Demográfica
-6 - PIB per Capita
-Você deverá digitar o número correspondente ao atributo. O sistema então exibirá o resultado da comparação, como no exemplo:
+Escolha o primeiro atributo para comparação:
+1. População
+2. Área
+3. PIB
+4. Pontos turísticos
+5. Densidade populacional
+6. PIB per capita
+Depois de escolher o primeiro, o segundo menu aparecerá com as opções restantes. O programa comparará os valores das duas cartas, exibirá os resultados de cada atributo e mostrará quem venceu.
 
+💬 Exemplo de Saída
 yaml
 Copiar
 Editar
-Comparando: População
-Carta 1: Brasil - 210000000
-Carta 2: Japão - 126000000
+Comparando cartas com base nos atributos: População e PIB
+
+Carta 1 - São Paulo (SP)
+População: 12325000
+PIB: 699280000000.00
+Soma dos atributos: 699292325000.00
+
+Carta 2 - Rio de Janeiro (RJ)
+População: 6748000
+PIB: 300500000000.00
+Soma dos atributos: 300506748000.00
+
 Resultado: Carta 1 venceu!
 
-👨‍🏫 Agradecimentos
-Projeto desenvolvido com apoio do professor Sergio Cardoso, na disciplina de Lógica de Programação da Universidade Estácio. Obrigado pela orientação e incentivo contínuo!
+👩‍🏫 Agradecimentos
+Agradeço ao professor Sergio Cardoso pela orientação ao longo do desenvolvimento deste projeto e à Universidade Estácio pela oportunidade de aprendizado prático com desafios progressivos em linguagem C.
+
