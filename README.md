@@ -1,4 +1,5 @@
 🃏 Super Trunfo - Comparador de Cartas de Países
+
 Este projeto em linguagem C simula o jogo Super Trunfo, permitindo o cadastro e comparação de cartas de cidades ou países com base em diversos atributos, como população, área, PIB, pontos turísticos, densidade demográfica e PIB per capita. Foi desenvolvido como parte do curso de Análise e Desenvolvimento de Sistemas da Universidade Estácio, com orientação do professor Sergio Cardoso.
 
 📚 Funcionalidades
