@@ -22,20 +22,25 @@ Regras especiais (como menor densidade vence)
 Mensagens claras e tratamento de empate
 
 📦 Como Compilar
+
 Você precisa ter o compilador GCC instalado.
 
 bash
 Copiar
 Editar
 gcc super_trunfo.c -o super_trunfo
+
 🚀 Como Executar
+
 Após compilar, rode o programa com:
 
 bash
 Copiar
 Editar
 ./super_trunfo
+
 🕹️ Exemplo de Uso
+
 Menu Interativo
 Você verá um menu como este:
 
@@ -52,6 +57,7 @@ Escolha o primeiro atributo para comparação:
 Depois de escolher o primeiro, o segundo menu aparecerá com as opções restantes. O programa comparará os valores das duas cartas, exibirá os resultados de cada atributo e mostrará quem venceu.
 
 💬 Exemplo de Saída
+
 yaml
 Copiar
 Editar
